@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+body {
+  margin:  0;
+  font-family: Montserrat;
+}
+
+button {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0.3em 0.5em;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    background: #fff;
+    border:none;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #7795f8;
+    outline: none;
+}
+
+/* 
+Cactus Image URL:  https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80 
+*/
+
+header{
+	background-image:url("https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+	height:100vh;
+	background-size:cover;
+	background-position:bottom;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+}
+main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background:lightgrey;
+  height:100vh;
+}
+main h2{
+  margin:3em;
+  color:indigo;
+}
+#cards{
+  display:flex;
+  justify-content:center;
+}
+#cards section{
+  width:35%;
+  border-radius:10px;
+  padding:80px;
+  background:white;
+  margin:0 1px;
+  color:grey;
+}
+#cards section h3{
+  color:green;
+  font-weight:500;
+}
+#cards section a{
+  text-decoration: none;
+}
+img{
+  width:4em;
+}
+
+h1{
+	margin:0;
+	font-size:3.5em;
+	font-weight:400;
+}
+
+
+@media screen and (max-width:1024px)
+{
+  
+  
+  header{
+    font-size:1.2em;
+    background-size:cover;
+  }
+  main{
+    font-size:1.2em;
+
+  }
+  main h2{
+   margin:3em 1em 0 1em;
+   font-size:1.8em;
+  }
+  #cards{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:50px 50px 0 50px;
+  }
+  #cards section{
+    margin-bottom:1px;
+    padding:50px;
+    width:100%;
+    border-radius: 0px;
+    font-size:1.8em;
+  }
+}
+
+
+@media screen and (max-width:768px)
+{
+  
+  
+  header{
+    font-size:0.9em;
+    background-size:cover;
+  }
+  main{
+    font-size:0.9em;
+
+  }
+  main h2{
+   margin:3em 1em 0 1em;
+   font-size:1.8em;
+  }
+  #cards{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:50px 50px 0 50px;
+  }
+  #cards section{
+    margin-bottom:1px;
+    padding:50px;
+    width:100%;
+    border-radius: 0px;
+    font-size:1.8em;
+  }
+
+
+}
+@media screen and (max-width:600px)
+{
+  body{
+    font-size:0.7em;
+  }
+  header{
+    font-size:0.6em;
+    background-size:cover;
+  }
+  main{
+    font-size:0.6em;
+  }
+  main h2{
+   margin:3em 1em 0 1em;
+   font-size:2em;
+  }
+  #cards{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:50px 50px 0 50px;
+  }
+  #cards section{
+    margin-bottom:1px;
+    padding:50px;
+    width:100%;
+    border-radius: 0px;
+    font-size:1.8em;
+  }
+}
+
